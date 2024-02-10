@@ -1,7 +1,7 @@
 <script setup>
 useHead({
   bodyAttrs: {
-    class: "bg-indigo-950 text-white"
+    class: "bg-base-100 text-white"
   }
 })
 </script>
