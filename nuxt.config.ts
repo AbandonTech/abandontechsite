@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: "src/",
+  css: ["~/assets/css/main.css"],
   modules: ['@nuxtjs/tailwindcss'],
   postcss: {
     plugins: {
@@ -11,4 +12,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      title: "AbandonTech",
+    }
+  }
 })

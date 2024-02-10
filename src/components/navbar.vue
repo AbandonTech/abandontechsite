@@ -1,7 +1,7 @@
 <template>
-    <div class="navbar bg-sky-950 bg-opacity-50">
+    <div class="navbar h-20 fixed bg-sky-500 bg-opacity-30">
         <div class="flex-1">
-            <NuxtLink to="/" class="btn btn-ghost text-xl">AbandonTech</NuxtLink>
+            <NuxtLink to="/" class="text-white text-xl"><img class="h-10" src="~/assets/img/logoHorizontal.svg"></NuxtLink>
         </div>
 
         <div class="flex-none">

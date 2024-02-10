@@ -1,4 +1,13 @@
+<script setup>
+useHead({
+  bodyAttrs: {
+    class: "bg-indigo-950 text-white"
+  }
+})
+</script>
+
 <template>
-  <Navbar />
-  <NuxtPage />
+    <Navbar />
+    <div class="pb-20"/>
+    <NuxtPage />
 </template>
