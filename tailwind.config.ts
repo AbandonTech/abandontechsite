@@ -5,15 +5,17 @@ module.exports = {
           {
             light: {
               ...require("daisyui/src/theming/themes")["light"],
-              "base-100": "#ffffff",
-              "primary-content": "#000000"
+              "base-100": "#ffffff",  // backgrounds
+              "primary-content": "#ffffff",  // text
+              "primary": "#1A67D7"
             },
           },
           {
             dark: {
               ...require("daisyui/src/theming/themes")["dark"],
-              "base-100": "#0f172a",
-              "primary-content": "#ffffff",
+              "base-100": "#1f2937",  // backgrounds
+              "primary-content": "#ffffff",  // text
+              "primary": "#1A67D7"
             },
           },
         ]
