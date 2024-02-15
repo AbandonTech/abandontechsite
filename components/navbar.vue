@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar h-20 fixed bg-primary">
+    <div class="navbar px-7 h-20  fixed bg-primary">
         <div class="flex-1">
             <NuxtLink to="/">
                 <img class="h-8" src="assets/img/logoHorizontalDarkMode.svg" />
