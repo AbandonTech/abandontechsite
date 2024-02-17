@@ -12,16 +12,16 @@
                 <li class="dropdown dropdown-end dropdown-hover">
                     <div tabindex="0" role="button">Projects</div>
                         <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 text-base-content rounded-box w-40">
-                            <li><NuxtLink to="/projects">Abandon Auth</NuxtLink></li> 
-                            <li><NuxtLink to="/projects">Minecraft Admin</NuxtLink></li>
+                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Abandon Auth</NuxtLink></li> 
+                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Minecraft Admin</NuxtLink></li>
                         </ul>
                 </li>
 
                 <li class="dropdown dropdown-end dropdown-hover">
                     <div tabindex="0" role="button">Docs</div>
                         <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 text-base-content rounded-box w-40">
-                            <li><NuxtLink to="/projects">Abandon Auth</NuxtLink></li> 
-                            <li><NuxtLink to="/projects">Minecraft Admin</NuxtLink></li>
+                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Abandon Auth</NuxtLink></li> 
+                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Minecraft Admin</NuxtLink></li>
                         </ul>
                 </li>
 
@@ -33,4 +33,17 @@
     </div>
 </template>
 
-
+<script>
+    export default {
+        methods: {
+            removeDropdownFocus() {
+                // Hack to close dropdowns when they are clicked
+                // Removes focus that is holding element open
+                const elem = document.activeElement
+                if (elem) {
+                    elem?.blur()
+                }
+            }
+        }
+    }
+</script>
