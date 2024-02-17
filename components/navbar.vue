@@ -33,17 +33,10 @@
     </div>
 </template>
 
-<script>
-    export default {
-        methods: {
-            removeDropdownFocus() {
-                // Hack to close dropdowns when they are clicked
-                // Removes focus that is holding element open
-                const elem = document.activeElement
-                if (elem) {
-                    elem?.blur()
-                }
-            }
-        }
+<script setup>
+    function removeDropdownFocus() {
+        // Hack to close dropdowns when they are clicked
+        // Removes focus that is holding element open
+        document.activeElement?.blur();
     }
 </script>
