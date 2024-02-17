@@ -11,7 +11,7 @@
 
                 <li class="dropdown dropdown-end dropdown-hover">
                     <div tabindex="0" role="button">Projects</div>
-                        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-40">
+                        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 text-base-content rounded-box w-40">
                             <li><NuxtLink to="/projects">Abandon Auth</NuxtLink></li> 
                             <li><NuxtLink to="/projects">Minecraft Admin</NuxtLink></li>
                         </ul>
@@ -19,7 +19,7 @@
 
                 <li class="dropdown dropdown-end dropdown-hover">
                     <div tabindex="0" role="button">Docs</div>
-                        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-40">
+                        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 text-base-content rounded-box w-40">
                             <li><NuxtLink to="/projects">Abandon Auth</NuxtLink></li> 
                             <li><NuxtLink to="/projects">Minecraft Admin</NuxtLink></li>
                         </ul>
