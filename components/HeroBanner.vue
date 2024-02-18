@@ -2,9 +2,11 @@
     <div class="flex justify-center py-36">
         <div>
             <div class="text-base-content text-center text-7xl">
-                <!-- <h1>Technology Without</h1>
-                <h1>The Baggage</h1> -->
-                <h1>{{ toHtmlComment("TODO: Write a Good Slogan") }}</h1>
+                <h1 v-if="debug" class="-rotate-2">&#60;!-- <span class="underline underline-offset-8 decoration-wavy decoration-[5px] decoration-amber-300">TODO:</span> Write a Good Slogan --&#62;</h1>
+                <template v-else>
+                    <h1>Empowering Businesses</h1>
+                    <h1>Through Technology</h1>
+                </template>
             </div>
             <div class="flex gap-7 justify-center mt-16">
                 <button class="btn btn-lg btn-wide btn-primary">Learn More</button>
@@ -15,7 +17,6 @@
 </template>
 
 <script setup>
-    function toHtmlComment(txt) {
-        return `<!-- ${txt} -->`
-    }
+    const route = useRoute()
+    const debug = "debug" in route.query
 </script>
