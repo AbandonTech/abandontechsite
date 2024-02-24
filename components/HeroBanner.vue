@@ -9,8 +9,8 @@
                 </template>
             </div>
             <div class="flex gap-7 justify-center mt-16">
-                <button class="btn btn-lg btn-wide btn-primary">Learn More</button>
-                <button class="btn btn-lg btn-wide btn-outline">Contact Us</button>
+                <button class="btn btn-lg btn-wide btn-primary">Contact Us</button>
+                <button class="btn btn-lg btn-wide btn-outline">Our Portfolio</button>
             </div>
         </div>
     </div>
