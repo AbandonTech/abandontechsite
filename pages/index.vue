@@ -20,7 +20,7 @@
         },
         other: {
             title: "Anything Else",
-            description: `Our expertise go beyond web development and deployments. If you don't 
+            description: `Our expertise goes beyond web development and deployments. If you don't 
                     see what you need listed, please reach out to us for personalized assistance.`
         }
     }

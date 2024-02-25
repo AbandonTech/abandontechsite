@@ -10,9 +10,9 @@
             </div>
             <div class="flex gap-7 justify-center mt-16">
                 <button type="button" class="btn btn-lg btn-wide btn-primary" @click="scrollToFooter">Contact Us</button>
-                <button type="button" class="btn btn-lg btn-wide btn-outline">Our Portfolio</button>
+                <NuxtLink to="/projects"><button type="button" class="btn btn-lg btn-wide btn-outline">Our Portfolio</button></NuxtLink>
             </div>
-        </div>
+        </div>  
     </div>
 </template>
 

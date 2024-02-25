@@ -5,6 +5,7 @@
     <NuxtPage />
     <div class="grow" />
     <Footer />
+
   </div>
 </template>
 
