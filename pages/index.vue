@@ -12,14 +12,14 @@
     const aboutSectionData = {
         hosting: {
             title: "Hosting and Management",
-            description: `We provide a number of solutions for hosting applications and services. Whether it is a simple 
-                    static site or a complex and distributed service, we would love to assist you in reliably and scalably deploying 
-                    your applications.`
+            description: `We provide a number of solutions for hosting applications and services. From simple, static websites
+            to complex applications, it is our goal to assist you with a personalized experience that fits your needs.`
         },
         webDev: {
             title: "Web Dev",
             description: `Our team is made up of talented developers and designers. Collectively we cover a large range of 
-                    sills across fullstack web development.`
+                    skills across fullstack web development. Our aim to to create unique work that is custom tailored to
+                    your business or personal goals.`
         },
         other: {
             title: "Anything Else",
