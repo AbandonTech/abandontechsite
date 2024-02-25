@@ -9,8 +9,8 @@
                 </template>
             </div>
             <div class="flex gap-7 justify-center mt-16">
-                <button class="btn btn-lg btn-wide btn-primary">Contact Us</button>
-                <button class="btn btn-lg btn-wide btn-outline">Our Portfolio</button>
+                <button type="button" class="btn btn-lg btn-wide btn-primary" @click="scrollToFooter">Contact Us</button>
+                <button type="button" class="btn btn-lg btn-wide btn-outline">Our Portfolio</button>
             </div>
         </div>
     </div>
@@ -19,4 +19,9 @@
 <script setup>
     const route = useRoute()
     const debug = "debug" in route.query
+
+    function scrollToFooter() {
+        document.getElementById('footer').scrollIntoView()
+    }
+
 </script>

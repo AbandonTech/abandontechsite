@@ -1,9 +1,11 @@
 <template>
     <HeroBanner />
+
     <AboutSection class="bg-base-200" :title="aboutSectionData.hosting.title" :description="aboutSectionData.hosting.description" />
     <AboutSection class="bg-base-100" :title="aboutSectionData.webDev.title" :description="aboutSectionData.webDev.description" />
     <AboutSection class="bg-base-200" :title="aboutSectionData.other.title" :description="aboutSectionData.other.description" />
 
+    <Footer />
 </template>
 
 <script setup>

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       enabled: true
     }
   },
-  css: ["/assets/css/main.css"],
+  css: ["/assets/css/main.css", "@fortawesome/fontawesome-svg-core/styles.css"],
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
   tailwindcss: {
     exposeConfig: true,
