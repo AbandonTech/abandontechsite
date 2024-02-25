@@ -18,10 +18,11 @@
                 </li>
 
                 <li class="dropdown dropdown-end dropdown-hover">
-                    <div tabindex="0" role="button"><NuxtLink to="/projects" @click="removeDropdownFocus">Docs</NuxtLink></div>
+                    <div tabindex="0" role="button"><NuxtLink to="/projects" @click="removeDropdownFocus">Services</NuxtLink></div>
                         <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 text-base-content rounded-box w-40">
-                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Abandon Auth</NuxtLink></li> 
-                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Minecraft Admin</NuxtLink></li>
+                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Hosting</NuxtLink></li> 
+                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Web Dev</NuxtLink></li>
+                            <li><NuxtLink to="/projects" @click="removeDropdownFocus">Backend</NuxtLink></li>
                         </ul>
                 </li>
 
