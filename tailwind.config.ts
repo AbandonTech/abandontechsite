@@ -23,6 +23,7 @@ module.exports = {
             dark: {
               ...require("daisyui/src/theming/themes")["dark"],
               "base-100": "#1f2937",  // backgrounds
+              "base-200": "#1c2531",
               "base-content": "#ffffff",
               "primary-content": "#ffffff",  // text
               "primary": "#1A67D7"  // AbandonTech Blue
