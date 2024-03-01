@@ -1,4 +1,5 @@
 <template>
+    <div class="lg:mt-20" />
     <ProjectCard v-bind="projectCardProps.abandonAuth" />
     <ProjectCard v-bind="projectCardProps.minecraftAdmin" />
     <ProjectCard v-bind="projectCardProps.minecraftRouter" />
@@ -11,8 +12,8 @@
             title: "Minecraft Admin",
             imagePath: "/img/minecraftAdminLogo.svg",
             externalLink: "https://mc.abandontech.cloud",
-            description: `Minecraft Admin is a web application for managing your Minecraft servers and giving users fine-grained
-            permissions for executing RCON commands on your servers. It also features a proxy for protecting each server's IP address.`
+            description: `Web application for managing Minecraft servers and giving users fine-grained
+            permissions for executing RCON commands. It also features a proxy for protecting each server's IP address.`
         },
         abandonAuth: {
             title: "Abandon Auth",
