@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <Navbar class="hidden lg:flex" />
+    <div class="lg:mt-20" />
     <NuxtPage />
     <div class="grow" />
     <Footer />

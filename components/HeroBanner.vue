@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center py-10 lg:py-40 lg:mt-20">
+    <div class="flex justify-center py-10 lg:py-40">
         <div>
             <div class="text-base-content text-center text-4xl p-4 lg:text-7xl">
                 <h1 v-if="debug" class="-rotate-2">&#60;!-- <span class="underline underline-offset-8 decoration-wavy decoration-[5px] decoration-amber-300">TODO:</span> Write a Good Slogan --&#62;</h1>

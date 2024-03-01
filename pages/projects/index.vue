@@ -1,5 +1,4 @@
 <template>
-    <div class="lg:mt-20" />
     <ProjectCard v-bind="projectCardProps.abandonAuth" />
     <ProjectCard v-bind="projectCardProps.minecraftAdmin" />
     <ProjectCard v-bind="projectCardProps.minecraftRouter" />
