@@ -21,8 +21,7 @@
 
 <script setup>
     function removeClickFocus() {
-        // Hack to close dropdowns when they are clicked
-        // Removes focus that is holding element open
+        // Hack to remove focus/hover effects when clicked elements are permanently focused when clicked
         document.activeElement?.blur();
     }
 </script>
