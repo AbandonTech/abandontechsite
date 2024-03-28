@@ -9,7 +9,7 @@
             <p class="text-lg lg:w-10/12 text-center mt-4 sm:mt-0 mx-auto">{{ props.description }}</p>
             <div class="flex flex-col lg:flex-row gap-4 items-center justify-center">
                 <NuxtLink :to="`/projects/$props.internalLink`"><button type="button" class="btn btn-md w-64 sm:w-32 xl:w-36 2xl:w-48 btn-primary">Learn More</button></NuxtLink>
-                <NuxtLink :to="props.externalLink"><button type="button" class="btn btn-md w-64 sm:w-32 xl:w-36 2xl:w-48 btn-outline">{{ props.title }}</button></NuxtLink>
+                <NuxtLink :to="props.externalLink" target="_blank" rel="noreferrer"><button type="button" class="btn btn-md w-64 sm:w-32 xl:w-36 2xl:w-48 btn-outline">{{ props.title }} <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" /></button></NuxtLink>
             </div>
             
         </div>
