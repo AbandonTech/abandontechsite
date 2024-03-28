@@ -10,7 +10,7 @@
         minecraftAdmin: {
             title: "Minecraft Admin",
             imagePath: "/img/minecraftAdminLogo.svg",
-            internalLink: "/projects/MinecraftAdmin",
+            internalLink: "/projects/minecraftadmin",
             externalLink: "https://mc.abandontech.cloud",
             description: `Web application for managing Minecraft servers and giving users fine-grained
             permissions for executing RCON commands. It also features a proxy for protecting each server's IP address.`
@@ -18,7 +18,7 @@
         abandonAuth: {
             title: "Abandon Auth",
             imagePath: "/img/padlock.svg",
-            internalLink: "/projects/AbandonAuth",
+            internalLink: "/projects/abandonauth",
             externalLink: "https://auth.abandontech.cloud",
             description: `OAuth and Identity Management provider that simplifies user authentication and consolidates user identities
             accross OAuth providers.`
@@ -26,7 +26,7 @@
         minecraftRouter: {
             title: "Minecraft Router",
             imagePath: "/img/minecraftAdminLogo.svg",
-            internalLink: "/projects/MinecraftRouter",
+            internalLink: "/projects/minecraftrouter",
             externalLink: "https://github.com/AbandonTech/minecraftrouter",
             description: `Service for resolving DNS to Minecraft servers while providing privacy for server owners by protecting
                 their IP address from connecting users.`
