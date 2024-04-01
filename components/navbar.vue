@@ -10,8 +10,8 @@
             <ul class="menu menu-horizontal text-lg px-1">
 
                 <li><NuxtLink to="/projects" @click="removeClickFocus">Projects</NuxtLink></li>
-                <li><NuxtLink to="/services" @click="removeClickFocus">Services</NuxtLink></li>
-                <li><NuxtLink to="/about" @click="removeClickFocus">About Us</NuxtLink></li>
+                <li><NuxtLink to="/about" @click="removeClickFocus">About</NuxtLink></li>
+                <li><button @click="scrollToFooter">Contact Us</button></li>
 
             </ul>
         </div>
@@ -23,5 +23,10 @@
     function removeClickFocus() {
         // Hack to remove focus/hover effects when clicked elements are permanently focused when clicked
         document.activeElement?.blur();
+    }
+
+    function scrollToFooter() {
+        document.getElementById('footer').scrollIntoView()
+        removeClickFocus()
     }
 </script>
