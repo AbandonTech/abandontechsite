@@ -8,8 +8,8 @@
         <div class="flex flex-col w-full  gap-10 justify-center lg:w-1/2">
             <p class="text-lg lg:w-10/12 text-center mt-4 md:mt-12 lg:mt-0 mx-auto">{{ props.description }}</p>
             <div class="flex flex-col lg:flex-row gap-4 items-center justify-center">
-                <NuxtLink :to="props.internalLink"><button type="button" class="btn btn-md w-64 xl:w-44 2xl:w-48 btn-primary">Learn More</button></NuxtLink>
-                <NuxtLink :to="props.externalLink" target="_blank" rel="noreferrer"><button type="button" class="btn btn-md w-64 xl:w-44 2xl:w-48 btn-outline">{{ props.title }} <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" /></button></NuxtLink>
+                <NuxtLink :to="props.internalLink"><button type="button" class="btn btn-md w-64 lg:w-28 xl:w-44 2xl:w-48 btn-primary">Learn More</button></NuxtLink>
+                <NuxtLink :to="props.externalLink" target="_blank" rel="noreferrer"><button type="button" class="btn btn-md w-64 lg:w-44 xl:w-44 2xl:w-48 btn-outline">{{ props.title }} <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" /></button></NuxtLink>
             </div>
             
         </div>
