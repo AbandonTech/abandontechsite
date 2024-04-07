@@ -11,7 +11,6 @@
 
                 <li><NuxtLink to="/projects" @click="removeClickFocus">Projects</NuxtLink></li>
                 <li><NuxtLink to="/about" @click="removeClickFocus">About</NuxtLink></li>
-                <li><button @click="scrollToFooter">Contact Us</button></li>
 
             </ul>
         </div>
