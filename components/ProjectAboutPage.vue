@@ -4,7 +4,7 @@
             <h1 class="text-4xl lg:text-9xl mb-10">{{ props.title }}</h1>
         </div>
         <div class="self-center w-11/12 lg:w-2/3 mb-10">
-            <p class="text-primary-content text-xl whitespace-pre-line">
+            <p class="text-base-content text-2xl whitespace-pre-line">
                 {{ props.description }}
             </p>
         </div>
