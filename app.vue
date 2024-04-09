@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <Navbar class="hidden lg:flex" />
-    <div class="lg:mt-20" />
+    <div class="lg:mt-20"></div>
     <NuxtPage />
-    <div class="grow" />
-    <Footer />
+    <div class="grow"></div>
+    <Footer></Footer>
     <BottomNav class="lg:hidden" />
 
   </div>
