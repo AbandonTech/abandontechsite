@@ -5,6 +5,7 @@
                 <ClientOnly>
                     <NuxtLink to="https://github.com/AbandonTech" target="_blank"><font-awesome-icon icon="fa-brands fa-github" /></NuxtLink>
                     <NuxtLink to="mailto:info@abandontech.cloud" target="_blank"><font-awesome-icon icon="fa-solid fa-envelope" /></NuxtLink>
+                    <NuxtLink to="https://discord.gg/SeQYbPt5ps" target="_blank"><font-awesome-icon icon="fa-brands fa-discord" /></NuxtLink>
                 </ClientOnly>
             </div>
             <p>info@abandontech.cloud</p>
