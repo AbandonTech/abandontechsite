@@ -11,7 +11,9 @@
 </template>
 
 <script setup>
-import verticalLogoColor from "/img/logoVerticalColor.svg"
+import verticalLogoColor from "/img/logoVerticalColor.png"
+
+const runtimeConfig = useRuntimeConfig()
   useHead({
     bodyAttrs: {
       class: "bg-base-100 text-primary-content"
@@ -23,7 +25,7 @@ import verticalLogoColor from "/img/logoVerticalColor.svg"
     ogTitle: "AbandonTech",
     description: "Empowering Businesses Through Technology",
     ogDescription: "Empowering Businesses Through Technology",
-    ogImage: useRuntimeConfig().public.baseUrl + verticalLogoColor,
+    ogImage: runtimeConfig.public.baseUrl + verticalLogoColor,
     twitterCard: "summary_large_image",
     themeColor: "#1A67D7"
 })
