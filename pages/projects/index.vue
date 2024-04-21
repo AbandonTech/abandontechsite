@@ -1,4 +1,5 @@
 <template>
+    <h1 class="text-base-content text-center text-4xl pt-16 pb-8 lg:text-7xl">Our Projects</h1>
     <ProjectCard v-bind="projectCardProps.abandonAuth" />
     <ProjectCard v-bind="projectCardProps.minecraftAdmin" />
     <ProjectCard v-bind="projectCardProps.minecraftRouter" />
