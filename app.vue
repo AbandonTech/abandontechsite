@@ -11,6 +11,7 @@
 </template>
 
 <script setup>
+import verticalLogoColor from "/img/logoVerticalColor.svg"
   useHead({
     bodyAttrs: {
       class: "bg-base-100 text-primary-content"
@@ -22,7 +23,7 @@
     ogTitle: "AbandonTech",
     description: "Empowering Businesses Through Technology",
     ogDescription: "Empowering Businesses Through Technology",
-    ogImage: "/img/logoVerticalColor.svg",
+    ogImage: useRuntimeConfig().public.baseUrl + verticalLogoColor,
     twitterCard: "summary_large_image",
     themeColor: "#1A67D7"
 })
