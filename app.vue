@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import verticalLogoColor from "/img/logoVerticalColor.png"
+import logoColor from "/img/logoColor.png"
 
 const runtimeConfig = useRuntimeConfig()
   useHead({
@@ -25,7 +25,7 @@ const runtimeConfig = useRuntimeConfig()
     ogTitle: "AbandonTech",
     description: "Empowering Businesses Through Technology",
     ogDescription: "Empowering Businesses Through Technology",
-    ogImage: runtimeConfig.public.baseUrl + verticalLogoColor,
+    ogImage: runtimeConfig.public.baseUrl + logoColor,
     twitterCard: "summary_large_image",
     themeColor: "#1A67D7"
 })
