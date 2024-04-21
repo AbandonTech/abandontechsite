@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      baseUrl: process.env.baseUrl
+    }
+  },
   devtools: {
     enabled: true,
 
@@ -16,5 +21,5 @@ export default defineNuxtConfig({
     head: {
       title: "AbandonTech",
     }
-  }
+  },
 })
