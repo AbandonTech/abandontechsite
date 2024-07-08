@@ -2,7 +2,7 @@
     <div class="navbar px-7 h-20 fixed bg-primary">
         <div class="flex-1">
             <NuxtLink to="/">
-                <img class="h-8 select-none" src="/img/logoHorizontalDarkMode.svg" />
+                <img class="h-8 select-none" src="/img/logoHorizontalDarkMode.svg" alt="The AbandonTech logo that depicts a sailing ship" />
             </NuxtLink>
         </div>
 
