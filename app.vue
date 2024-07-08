@@ -17,7 +17,21 @@ const runtimeConfig = useRuntimeConfig()
   useHead({
     bodyAttrs: {
       class: "bg-base-100 text-primary-content"
+    },
+    link: [
+    {
+      rel: "preload",
+      type: "font/Atkinson Hyperlegible",
+      href: "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+      as: "font",
+    },
+    {
+      rel: "preload",
+      type: "font/Lato",
+      href: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
+      as: "font",
     }
+  ]
   })
 
   useSeoMeta({
