@@ -2,7 +2,7 @@
     <div class="bg-base-100 text-base-content flex flex-col lg:flex-row justify-center lg:justify-between items-center border border-base-content/20 rounded-2xl w-11/12 lg:w-8/12 2xl:w-1/2 h-[85vh] lg:h-80 mx-auto mt-12 p-4 lg:p-0">
         <div class="w-full lg:w-1/2">
             <h3 class="text-center text-4xl">{{ props.title }}</h3>
-            <img class="w-1/3 mx-auto mt-4" :src="props.imagePath" :alt="`The logo for ${props.title }`" />
+            <img class="w-1/3 mx-auto mt-4" :src="props.imagePath" :alt="`The logo for ${props.title }`" loading="lazy">
         </div>
 
         <div class="flex flex-col w-full  gap-10 justify-center lg:w-1/2">
