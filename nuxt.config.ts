@@ -20,6 +20,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "AbandonTech",
+      htmlAttrs: {
+        lang: 'en',
+      }
     }
   },
 })
