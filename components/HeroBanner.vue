@@ -7,8 +7,8 @@
                     <h1 class="hidden lg:block text-4xl lg:text-9xl mb-10">AbandonTech</h1>
                     <ClientOnly>
                         <div class="block lg:hidden w-full mx-auto mb-10">
-                            <img v-if="$colorMode.value == 'dark'" src="/img/logoVerticalColorLightText.svg">
-                            <img v-else src="/img/logoVerticalColor.svg">
+                            <img v-if="$colorMode.value == 'dark'" src="/img/logoVerticalColorLightText.svg" alt="The AbandonTech logo that depicts a sailing ship">
+                            <img v-else src="/img/logoVerticalColor.svg" alt="The AbandonTech logo that depicts a sailing ship">
                         </div>
                     </ClientOnly>
                     <div class="divider divider-primary mb-10"></div>
