@@ -13,7 +13,12 @@ export default defineNuxtConfig({
     }
   },
   css: ["/assets/css/main.css"],
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "nuxt-gtag"],
+
+  gtag: {
+    id: 'G-S3TTG0RJWW'
+  },
+
   tailwindcss: {
     exposeConfig: true,
   },
